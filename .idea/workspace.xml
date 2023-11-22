@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a65f71d-a198-4647-8e98-0330f6a50891" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Rota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Aereo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aviao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Aviao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Balsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Balsa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Barco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Barco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Cidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deslocamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Deslocamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferroviario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Ferroviario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maritimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Maritimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Onibus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Onibus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Passagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Rota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Terrestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Terrestre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Transporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Trem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +42,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YVV1IwRrp8HzY72NGeGoNO02u7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,21 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/carlos.fribeiro/Documents/Diagrama-Transporte/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/carlos.fribeiro/Documents/Diagrama-Transporte/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -65,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700610516868</updated>
-      <workItem from="1700610517880" duration="4924000" />
+      <workItem from="1700610517880" duration="5808000" />
+      <workItem from="1700693772741" duration="665000" />
     </task>
     <servers />
   </component>

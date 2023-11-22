@@ -1,4 +1,6 @@
-public class Trem extends Ferroviario{
+package modelo;
+
+public class Onibus extends Terrestre{
     @Override
     public float getCarga() {
         return 0;
@@ -46,6 +48,11 @@ public class Trem extends Ferroviario{
 
     @Override
     public void setVelociadade(float velociadade) {
+
+    }
+
+    @Override
+    public void velocidadeAlcancada() {
 
     }
 }

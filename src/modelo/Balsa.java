@@ -1,4 +1,11 @@
-public class Onibus extends Terrestre{
+package modelo;
+
+public class Balsa extends Maritimo{
+    @Override
+    public void velocidadeAlcancada() {
+
+    }
+
     @Override
     public float getCarga() {
         return 0;
@@ -46,11 +53,6 @@ public class Onibus extends Terrestre{
 
     @Override
     public void setVelociadade(float velociadade) {
-
-    }
-
-    @Override
-    public void velocidadeAlcancada() {
 
     }
 }

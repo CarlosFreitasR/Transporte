@@ -1,3 +1,5 @@
+package modelo;
+
 public  abstract class Transporte {
     private float carga;
     private int numeroPassageros;

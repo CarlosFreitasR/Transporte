@@ -1,4 +1,11 @@
-public class Aviao extends Aereo{
+package modelo;
+
+public class Barco extends Maritimo{
+    @Override
+    public void velocidadeAlcancada() {
+
+    }
+
     @Override
     public float getCarga() {
         return 0;

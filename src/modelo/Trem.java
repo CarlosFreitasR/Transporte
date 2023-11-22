@@ -1,9 +1,6 @@
-public class Balsa extends Maritimo{
-    @Override
-    public void velocidadeAlcancada() {
+package modelo;
 
-    }
-
+public class Trem extends Ferroviario{
     @Override
     public float getCarga() {
         return 0;

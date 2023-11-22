@@ -1,3 +1,5 @@
+package modelo;
+
 public class Carro extends Terrestre{
     @Override
     public void velocidadeAlcancada() {
