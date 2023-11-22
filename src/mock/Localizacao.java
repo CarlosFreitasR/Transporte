@@ -2,6 +2,9 @@ package mock;
 
 import modelo.Cidade;
 
+import java.util.List;
+import java.util.stream.Stream;
+
 public enum Localizacao {
     SAO_PAULO_SP("São Paulo", "SP", "GRU", -23.5505, -46.6333),
     RIO_DE_JANEIRO_RJ("Rio de Janeiro", "RJ", "GIG", -22.9068, -43.1729),
@@ -40,5 +43,19 @@ public enum Localizacao {
     private final double latitude;
     private final double longitude;
 
+    public static Cidade buscarCidade(String origem) {
+        List<Localizacao> listaLocalizacao = List.of(Localizacao.values());
 
+        for (Localizacao local : listaLocalizacao) {
+            if (local.sigla.equals(origem)) {
+                Cidade cidade = new Cidade();
+                cidade.setCidade(local.cidade);
+                cidade.setEstado(local.estado);
+                cidade.setLatitude(local.latitude);
+                cidade.setLongitude(local.longitude);
+                return cidade;
+            }
+        }
+        return null;
+    }
 }
