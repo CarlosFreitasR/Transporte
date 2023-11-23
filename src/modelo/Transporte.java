@@ -1,11 +1,11 @@
 package modelo;
 
 public  abstract class Transporte {
-    private float carga;
-    private int numeroPassageros;
-    private String modelo;
-    private String cor;
-    private float velociadade;
+    protected float carga;
+    protected int numeroPassageros;
+    protected String modelo;
+    protected String cor;
+    protected float velociadade;
 
     public abstract  float getCarga();
 

@@ -1,9 +1,9 @@
 package modelo;
 
-public class Onibus extends Terrestre{
+public class Onibus extends Terrestre {
     @Override
     public float getCarga() {
-        return 0;
+        return carga;
     }
 
     @Override

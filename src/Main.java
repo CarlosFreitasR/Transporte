@@ -1,5 +1,6 @@
 import mock.Localizacao;
 import modelo.Cidade;
+import modelo.Passagem;
 
 import java.util.Scanner;
 
@@ -40,6 +41,6 @@ public class Main {
         String destino = scanner.nextLine();
         Cidade cidadeDestino = Localizacao.buscarCidade(origem);
 
-
+        Passagem passagem = new Passagem(cidadeOrigem, cidadeDestino);
     }
 }
