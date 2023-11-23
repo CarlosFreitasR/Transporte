@@ -8,51 +8,51 @@ public class Balsa extends Maritimo{
 
     @Override
     public float getCarga() {
-        return 0;
+        return carga;
     }
 
     @Override
     public void setCarga(float carga) {
-
+        super.setCarga(carga);
     }
 
     @Override
     public int getNumeroPassageros() {
-        return 0;
+        return numeroPassageros;
     }
 
     @Override
     public void setNumeroPassageros(int numeroPassageros) {
-
+        super.setNumeroPassageros(numeroPassageros);
     }
 
     @Override
     public String getModelo() {
-        return null;
+        return modelo;
     }
 
     @Override
     public void setModelo(String modelo) {
-
+        super.setModelo(modelo);
     }
 
     @Override
     public String getCor() {
-        return null;
+        return cor;
     }
 
     @Override
     public void setCor(String cor) {
-
+        super.setCor(cor);
     }
 
     @Override
     public float getVelociadade() {
-        return 0;
+        return velociadade;
     }
 
     @Override
     public void setVelociadade(float velociadade) {
-
+        super.setVelociadade(velociadade);
     }
 }

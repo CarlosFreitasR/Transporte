@@ -7,23 +7,43 @@ public  abstract class Transporte {
     protected String cor;
     protected float velociadade;
 
-    public abstract  float getCarga();
+    public float getCarga() {
+        return carga;
+    }
 
-    public abstract void setCarga(float carga);
+    public void setCarga(float carga) {
+        this.carga = carga;
+    }
 
-    public abstract int getNumeroPassageros();
+    public int getNumeroPassageros() {
+        return numeroPassageros;
+    }
 
-    public abstract void setNumeroPassageros(int numeroPassageros);
+    public void setNumeroPassageros(int numeroPassageros) {
+        this.numeroPassageros = numeroPassageros;
+    }
 
-    public abstract String getModelo() ;
+    public String getModelo() {
+        return modelo;
+    }
 
-    public abstract void setModelo(String modelo);
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
 
-    public abstract String getCor();
+    public String getCor() {
+        return cor;
+    }
 
-    public abstract void setCor(String cor);
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
 
-    public abstract float getVelociadade() ;
+    public float getVelociadade() {
+        return velociadade;
+    }
 
-    public abstract void setVelociadade(float velociadade);
+    public void setVelociadade(float velociadade) {
+        this.velociadade = velociadade;
+    }
 }

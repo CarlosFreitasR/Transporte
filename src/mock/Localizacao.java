@@ -47,7 +47,7 @@ public enum Localizacao {
         List<Localizacao> listaLocalizacao = List.of(Localizacao.values());
 
         for (Localizacao local : listaLocalizacao) {
-            if (local.sigla.equals(origem)) {
+            if (local.sigla.equalsIgnoreCase(origem)) {
                 Cidade cidade = new Cidade();
                 cidade.setCidade(local.cidade);
                 cidade.setEstado(local.estado);

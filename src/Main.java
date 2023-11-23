@@ -39,8 +39,9 @@ public class Main {
 
         System.out.print("Qual o destino? ");
         String destino = scanner.nextLine();
-        Cidade cidadeDestino = Localizacao.buscarCidade(origem);
+        Cidade cidadeDestino = Localizacao.buscarCidade(destino);
 
         Passagem passagem = new Passagem(cidadeOrigem, cidadeDestino);
+        passagem.tabelaPassagem();
     }
 }

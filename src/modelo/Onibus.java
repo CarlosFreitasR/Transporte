@@ -8,7 +8,7 @@ public class Onibus extends Terrestre {
 
     @Override
     public void setCarga(float carga) {
-      this.carga = carga;
+        super.setCarga(carga);
     }
 
     @Override
@@ -18,7 +18,7 @@ public class Onibus extends Terrestre {
 
     @Override
     public void setNumeroPassageros(int numeroPassageros) {
-     this.numeroPassageros = numeroPassageros;
+        super.setNumeroPassageros(numeroPassageros);
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Onibus extends Terrestre {
 
     @Override
     public void setModelo(String modelo) {
-     this.modelo = modelo;
+        super.setModelo(modelo);
     }
 
     @Override
@@ -38,7 +38,7 @@ public class Onibus extends Terrestre {
 
     @Override
     public void setCor(String cor) {
-        this.cor = cor;
+        super.setCor(cor);
     }
 
     @Override
@@ -48,7 +48,7 @@ public class Onibus extends Terrestre {
 
     @Override
     public void setVelociadade(float velociadade) {
-     this.velociadade = velociadade;
+        super.setVelociadade(velociadade);
     }
 
     @Override

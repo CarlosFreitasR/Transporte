@@ -1,22 +1,30 @@
 package modelo;
 
+import mock.Veiculo;
+
+import java.util.List;
+
 public class Passagem {
     private float valorPassagem;
     private Cidade origem;
     private Cidade destino;
     private Transporte transporte;
     private double km;
-    private long tempoViagem;
+    private double tempoViagem;
 
     public Passagem(Cidade origem, Cidade destino) {
         this.origem = origem;
         this.destino = destino;
         calcularDistancia();
-        calcularVelocidade();
+        calcualarPreco();
+    }
+
+    private void calcualarPreco() {
+        valorPassagem = (float) Math.random();
     }
 
     private void calcularVelocidade() {
-        this.tempoViagem = (long) ((km / transporte.getVelociadade()) * 3600 * 1000);
+        this.tempoViagem = km / transporte.getVelociadade();
     }
 
     private void calcularDistancia() {
@@ -41,6 +49,20 @@ public class Passagem {
 
         // Distância em quilômetros
         this.km = raioTerra * c;
+    }
+
+    public void tabelaPassagem() {
+        System.out.printf("Origem: %s - Destino: %s\n", origem.getCidade(), destino.getCidade());
+        System.out.println("=====================================================================================");
+        System.out.println("||  Veiculo  ||  Distancia  ||  Tempo Viagem  ||  Valor Passagem  ||");
+        System.out.println("||_________________________________________________________________________________||");
+        List<Transporte> transporteList = Veiculo.buscarTransporte();
+        for (Transporte v : transporteList) {
+            this.transporte = v;
+            calcularVelocidade();
+            System.out.printf("||   %s   ||   %.2f   ||   %.2f   ||   %.2f   ||\n",
+                    v.getModelo(), km, tempoViagem, valorPassagem);
+        }
     }
 
 

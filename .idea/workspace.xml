@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a65f71d-a198-4647-8e98-0330f6a50891" name="Changes" comment="criacao de pacote">
+    <list default="true" id="2a65f71d-a198-4647-8e98-0330f6a50891" name="Changes" comment="implementando Passagem">
+      <change afterPath="$PROJECT_DIR$/src/mock/Veiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mock/Localizacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/Localizacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Aviao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Aviao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Balsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Balsa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Barco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Barco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modelo/Onibus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Onibus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modelo/Passagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Passagem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modelo/Transporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Transporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Trem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Trem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,6 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/carlos.fribeiro/Documents/Diagrama-Transporte/src/Main.java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -61,6 +67,15 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Diagrama-Transporte" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +87,7 @@
       <updated>1700610516868</updated>
       <workItem from="1700610517880" duration="5808000" />
       <workItem from="1700693772741" duration="3543000" />
-      <workItem from="1700697408331" duration="392000" />
+      <workItem from="1700697408331" duration="4494000" />
     </task>
     <task id="LOCAL-00001" summary="criacao de pacote">
       <option name="closed" value="true" />
@@ -90,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700696192997</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implementando Passagem">
+      <option name="closed" value="true" />
+      <created>1700698210599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700698210600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +121,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criacao de pacote" />
-    <option name="LAST_COMMIT_MESSAGE" value="criacao de pacote" />
+    <MESSAGE value="implementando Passagem" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando Passagem" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mock/Veiculo.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mock/Veiculo.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mock/Veiculo.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
